@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+@font-face{
+
+	font-family: "Myriad Pro", serif;
+	src: url(../fonts/Myriad-Pro-Regular.ttf);
+}
+
+h1 {
+    font-family: "Open Sans", serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+h1 span {
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+}
+
+h1 > a{
+
+	text-decoration: none;
+	color: #fff;
+}
+
+.header-right {
+    font-family: "Open Sans", serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.search-box > input{
+
+	font-family: "Myriad Pro";
+	font-size: 14px;
+}
+
+.current-page-wrapper {
+    color: #7f8c8c;
+}
+
+.current-page-name {
+    font-family: "Open Sans", serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.breadcrumb {
+    font-family: "Open Sans", serif;
+    font-size: 12px;
+}
+
+.sidebar-gallery-wrapper h3{
+
+	font-family: "Open Sans", serif;
+	font-size: 16px;
+	font-weight: 800;
+}
+
+.infobox-list{
+
+	font-family: "Open Sans", serif;
+	font-size: 13px;
+	color: #7f8c8c;
+}
+
+.readmore{
+
+	color: #ffffff;
+	font-family: "Open Sans", serif;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.infobox-heading{
+
+	font-size: 16px;
+	font-weight: 800;
+}
+
+.accordion-title {
+    font-family: "Open Sans", serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: #7f8c8c
+}
+
+.accordion-content{
+
+	font-family: "Open Sans", serif;
+	font-size: 13px;
+	color: #777777;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.tabbed-area{
+
+	font-family: "Open Sans", serif;
+}
+
+.tabbed-area a{
+
+	font-weight: 800;
+	font-size: 16px;
+}
+
+.tabbed-area .tab-content{
+
+	font-weight: 400;
+	font-size: 13px;
+}
+
+.hover-content{
+
+	font-family: "Open Sans", serif;
+	font-size: 16px;
+	font-weight: 600;
+	color: #ffffff;
+}
+
+.grids-wrapper{
+
+	font-family: "Open Sans", serif;
+	color: #7f8c8c;
+}
+
+.grids-wrapper h3{
+
+	font-weight: 800;
+	font-size: 16px;
+}
+
+.grids-wrapper p{
+
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.four-lists{
+
+	font-family: "Open Sans", serif;
+	color: #7f8c8c;
+}
+
+.four-lists .list-header{
+
+	font-size: 16px;
+	font-weight: 800;
+}
+
+.four-lists .list{
+
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.contact{
+
+	font-family: "Open Sans", serif;
+	font-size: 13px;
+}
+
+.value{
+
+	font-family: "Open Sans", serif;
+	font-size: 20px;
+	font-weight: 600;
+	font-style: italic;
+	margin-left: 15px;
+}
+
+.col3-main h3{
+
+	font-family: "Open Sans", serif;
+	font-size: 20px;
+	font-weight: 800;
+	color: #68364f;
+	line-height: 40px;
+}
+
+.col3-main ul{
+
+	font-family: "Open Sans", serif;
+	font-size: 13px;
+}
+
+.col3-right h3{
+
+	font-family: "Open Sans", serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 30px;
+}
+
+.col3-right > h3 > span{
+
+	font-family: "Open Sans", serif;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.blog-post{
+
+	font-family: "Open Sans", serif;
+	font-size: 13px;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.blog-post > .date{
+
+	color: #68364f;
+}
+
+.small-footer{
+
+	font-family: "Open Sans", serif;
+	font-size: 12px;
+}

@@ -1,0 +1,175 @@
+.header-left {
+    width: 100%;
+    float: none;
+    text-align: center;
+}
+
+.header-right {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.current-page-name {
+    float: left;
+}
+
+.breadcrumb {
+    width: 50%;
+}
+
+.col-left,
+.col-right {
+    width: 100%;
+    float: none;
+}
+
+.col-right {
+    display: none;
+}
+
+.accordion-wrapper {
+    width: 100%;
+}
+
+.images-wrapper {
+    width: 100%;
+}
+
+.list-wrapper {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+}
+
+.col3-left,
+.col3-main {
+    width: 100%;
+    display: block;
+}
+
+.col3-main:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.col3-right {
+    width: 100%;
+    margin-top: 50px;
+    display: block;
+}
+
+.main-wrapper {
+    width: 100%;
+    display: block;
+}
+
+.header-wrapper,
+section,
+.current-page,
+.big-footer,
+.small-footer {
+    margin: 0 auto;
+    width: 311.733333px;
+}
+
+.small-footer > .col-left {
+    float: left;
+    width: 60%;
+    display: inline-block;
+}
+
+.small-footer > .col-right {
+    display: inline-block;
+    width: 40%;
+    float: right;
+}
+
+@media only screen and (min-width: 768px) {
+    .header-wrapper,
+    section,
+    .current-page,
+    .big-footer,
+    .small-footer {
+        width: 733.490196px;
+    }
+    .col3-left {
+        float: left;
+        width: 40%;
+    }
+    .col3-main {
+        float: right;
+        width: 55%;
+    }
+    .col3-right {
+        float: right;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .main-wrapper {
+        float: left;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .header-left {
+        float: left;
+        width: 20%;
+        text-align: left;
+    }
+    .header-right {
+        float: right;
+        width: 80%;
+        text-align: right;
+    }
+    .col-left,
+    .col-right {
+        width: 100%;
+    }
+    .col-left {
+        width: 74.4225834%;
+        float: left;
+    }
+    .col-right {
+        width: 23.01112%;
+        float: right;
+        display: block;
+    }
+    .col3-left {
+        float: left;
+        width: 40%;
+    }
+    .col3-main {
+        float: right;
+        width: 55%;
+    }
+    .col3-right {
+        float: right;
+        width: 31.99315654%;
+    }
+    .main-wrapper {
+        float: left;
+        width: 68.0068435%;
+    }
+    .header-wrapper,
+    section,
+    .current-page,
+    .big-footer,
+    .small-footer {
+        width: 977.986928px;
+    }
+}
+
+@media only screen and (min-width: 1224px) {
+    .header-wrapper,
+    section,
+    .current-page,
+    .big-footer,
+    .small-footer {
+        width: 1169px;
+    }
+}
